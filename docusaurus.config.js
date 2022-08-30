@@ -166,7 +166,7 @@ const config = {
             items: [
               {
                 label: '源代码',
-                href: 'https://github.com/FUSHENG1221/BlogRepository',
+                href: 'https://github.com/FUSHENG1221/Netfily-BlogRepository',
               },
               {
                 label: '北林计协',

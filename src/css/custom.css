@@ -84,6 +84,6 @@ code {
 }
 
 .pagination-nav__link:hover {
-  box-shadow: 10px 10px 5px var(--ifm-color-primary-lighter);
+  box-shadow: 6px 6px 3px var(--ifm-color-primary-lighter);
   border: 2px solid var(--ifm-color-primary);
 }
