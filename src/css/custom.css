@@ -1,0 +1,89 @@
+/* 在这个文件中，官方为我们提供了颜色修改的接口
+这个文件包含了两个类，分别是 light 和 dark 。分别对应了两个主题——浅色和深色。 */
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ 这里包含的任何CSS都将是全局的。经典模板默认捆绑了Infima。
+ Infima是一个CSS框架，用于以内容为中心的网站。
+ */
+
+/* 
+You can override the default Infima variables here.
+您可以在这里重写缺省的Infima变量。
+ */
+:root {
+  --ifm-color-primary: #6c63ff;
+  --ifm-color-primary-dark: #4b40ff;
+  --ifm-color-primary-darker: #3a2eff;
+  --ifm-color-primary-darkest: #0e00f8;
+  --ifm-color-primary-light: #8d86ff;
+  --ifm-color-primary-lighter: #9e98ff;
+  --ifm-color-primary-lightest: #d0cdff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* 
+For readability concerns, you should choose a lighter palette in dark mode.
+出于可读性考虑，您应该在暗模式中选择较浅的调色板。
+ */
+[data-theme='dark'] {
+  --ifm-color-primary: #78d9f7;
+  --ifm-color-primary-dark: #55cff5;
+  --ifm-color-primary-darker: #44caf4;
+  --ifm-color-primary-darkest: #10bcf1;
+  --ifm-color-primary-light: #9be3f9;
+  --ifm-color-primary-lighter: #ace8fa;
+  --ifm-color-primary-lightest: #e0f6fd;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.markdown h1:first-child{
+  color:var(--ifm-color-primary);
+}
+
+.markdown>h2 {
+  border-bottom: 1px solid var(--ifm-color-primary);
+  font-size: 1.7em;
+  margin-top: 1rem;
+}
+
+.markdown>h2:before {
+  margin-right: 0.4em;
+  background: var(--ifm-color-primary);
+  color: transparent;
+  content: ".";
+}
+
+.markdown>h3 {
+  border-left: 4px solid var(--ifm-color-primary-light);
+  font-size: 1.5em;
+  padding-left: 1rem;
+}
+
+code {
+    /* background-color: var(--ifm-code-background); */
+    background-color: #2e80ec2d;
+    border: 0.1rem solid rgba(174,191,255,.794);
+    border-radius: var(--ifm-code-border-radius);
+    font-family: var(--ifm-font-family-monospace);
+    font-size: var(--ifm-code-font-size);
+    padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  display: block;
+  height: 100%;
+  line-height: var(--ifm-heading-line-height);
+  padding: var(--ifm-global-spacing);
+  transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.pagination-nav__link:hover {
+  box-shadow: 10px 10px 5px var(--ifm-color-primary-lighter);
+  border: 2px solid var(--ifm-color-primary);
+}
