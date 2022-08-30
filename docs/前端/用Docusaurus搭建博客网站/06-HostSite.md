@@ -90,4 +90,4 @@ tags:
 
 ![](https://fusheng1221.oss-cn-beijing.aliyuncs.com/fusheng-001-img/20220830114538.png)
 
-然后就能访问啦！🎉🎉
+然后就能访问啦！🎉
