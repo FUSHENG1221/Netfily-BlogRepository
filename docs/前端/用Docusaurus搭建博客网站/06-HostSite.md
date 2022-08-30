@@ -70,13 +70,24 @@ tags:
 
 选择部署的用户以及分支，点击`Deploy site`。
 
-![](https://fusheng1221.oss-cn-beijing.aliyuncs.com/fusheng-001-img/20220830103114.png)
+![](https://fusheng1221.oss-cn-beijing.aliyuncs.com/fusheng-001-img/20220830114336.png)
 
+构建成功。
 
+![](https://fusheng1221.oss-cn-beijing.aliyuncs.com/fusheng-001-img/20220830114412.png)
 
+### 自定义域名
 
+点击“域设置(`Domain settings`)”
 
+![](https://fusheng1221.oss-cn-beijing.aliyuncs.com/fusheng-001-img/20220830114431.png)
 
+选择`Edit site name`。
 
+![](https://fusheng1221.oss-cn-beijing.aliyuncs.com/fusheng-001-img/20220830114457.png)
 
+修改名字时，域名会随之改变。
 
+![](https://fusheng1221.oss-cn-beijing.aliyuncs.com/fusheng-001-img/20220830114538.png)
+
+然后就能访问啦！🎉🎉
