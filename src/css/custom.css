@@ -63,6 +63,12 @@ For readability concerns, you should choose a lighter palette in dark mode.
   padding-left: 1rem;
 }
 
+.markdown>h4{
+  border-left: 3px solid var(--ifm-color-primary-lighter);
+  font-size: 1.2em;
+  padding-left: 0.8rem;
+}
+
 code {
     /* background-color: var(--ifm-code-background); */
     background-color: #2e80ec2d;
